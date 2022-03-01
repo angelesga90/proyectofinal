@@ -1,0 +1,167 @@
+/*******************
+     RESPONSIVE 
+ ******************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .clearfix {
+    max-width: 480px; } }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */ }
+
+/*titulos*/
+h1 {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Lobster', cursive;
+  color: #137592; }
+
+/*index-contenido*/
+.presentacion {
+  display: flex;
+  justify-content: center; }
+  .presentacion .video {
+    display: flex;
+    padding-left: 20px; }
+  .presentacion .parrafo {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2d71b1;
+    font: size 200%;
+    margin-top: 10%; }
+
+/*galeria*/
+.gallery {
+  margin: 5px;
+  border: 1px solid pink;
+  float: left;
+  width: 200px; }
+
+.gallery:hover {
+  border: 1px solid #a816a1; }
+
+.gallery img {
+  width: 100%;
+  height: auto; }
+
+.desc {
+  padding: 15px;
+  text-align: center; }
+
+/*quienes-somos*/
+.parrafo-dos {
+  display: flex;
+  justify-content: left;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2d71b1;
+  font: size 200%; }
+
+img {
+  margin-right: 50px;
+  margin-top: 45px; }
+
+.clearfix {
+  overflow: auto; }
+
+/*redes footer*/
+.pie {
+  display: flex;
+  background-color: #f8d3fd;
+  width: 100%;
+  color: white; }
+
+.pie {
+  max-width: 100%; }
+  .pie .columnaUno {
+    max-width: 30%;
+    margin-left: 5%; }
+    .pie .columnaUno h2 {
+      font-size: 20px;
+      margin-left: 10px;
+      justify-content: flex-start;
+      color: black; }
+    .pie .columnaUno p {
+      display: flex;
+      justify-content: left;
+      font-style: normal;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: black;
+      font: size 12px; }
+
+.Columnaredes {
+  display: flex;
+  max-width: 30%;
+  margin-top: 2%; }
+
+.face {
+  background-color: blue;
+  color: white;
+  margin-right: 2px;
+  margin-top: 2%; }
+
+.insta {
+  background-color: blueviolet;
+  color: white;
+  margin-top: 2%; }
+
+.google {
+  background-color: #db8829;
+  color: white; }
+
+.wapp {
+  background-color: green;
+  color: white;
+  margin-top: 2%; }
+
+.youtube {
+  background-color: red;
+  color: white;
+  margin-top: 2%; }
+
+.copy {
+  max-width: 30%;
+  margin-left: 10%;
+  margin-top: 2%;
+  color: black; }
+
+/*contacto*/
+.formulario {
+  display: grid;
+  color: #137592;
+  margin: 2%;
+  padding: 1%;
+  background-color: pink;
+  width: 50%;
+  height: 50%; }
