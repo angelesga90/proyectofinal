@@ -52,11 +52,11 @@ h1 {
      }
 }
 /*galeria*/     
-.gallery {
-    margin: 5px;
-    border: 1px solid pink ;
-    float: left;
-    width: 200px;
+.gallery { margin: 5px;
+  border: 1px solid pink ;
+  float: left;
+  width: 200px;
+   
   }
   
 .gallery:hover {
@@ -74,7 +74,7 @@ h1 {
   }
 /*quienes-somos*/
 .parrafo-dos{
-  @include textos(left,200%,$colorUno);
+  @include textos(left,300%,$colorUno);
 }
 img{
   margin-right: 50px;
