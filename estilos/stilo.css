@@ -3,8 +3,67 @@
  ******************/
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .clearfix {
-    max-width: 480px; } }
+  .presentacion {
+    display: flex;
+    justify-content: center; }
+    .presentacion .video {
+      width: 200;
+      height: 200;
+      display: flex;
+      padding-left: 20px;
+      margin-left: 20%; }
+    .presentacion .parrafo {
+      color: black;
+      text-size-adjust: 50%;
+      margin-top: 10%; }
+  /*redes footer*/
+  .pie {
+    display: flex;
+    background-color: #f8d3fd;
+    width: 100%;
+    color: white;
+    padding: 2%; }
+  .pie {
+    max-width: 100%; }
+  .columnaUno {
+    max-width: 30%;
+    margin-left: 5%; }
+    .columnaUno h2 {
+      font-size: 20px;
+      margin-left: 10px;
+      justify-content: flex-start;
+      color: black; }
+    .columnaUno p {
+      color: black; } }
+
+.Columnaredes {
+  display: flex;
+  max-width: 30%;
+  margin-top: 2%;
+  margin-left: 30%;
+  padding: 2%; }
+
+.face {
+  margin-inline-start: 15%;
+  margin-top: 1%; }
+
+.insta {
+  margin-top: 2%; }
+
+.google {
+  margin-top: 2%; }
+
+.wapp {
+  margin-top: 2%; }
+
+.youtube {
+  margin-top: 2%; }
+
+.copy {
+  max-width: 30%;
+  margin-left: 5%;
+  margin-top: 2%;
+  color: black; }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
@@ -51,14 +110,15 @@ h1 {
   justify-content: center; }
   .presentacion .video {
     display: flex;
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin-left: 5%; }
   .presentacion .parrafo {
     display: flex;
     justify-content: flex-end;
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2d71b1;
-    font: size 200%;
+    font: size 400%;
     margin-top: 10%; }
 
 /*galeria*/
@@ -100,7 +160,8 @@ img {
   display: flex;
   background-color: #f8d3fd;
   width: 100%;
-  color: white; }
+  color: white;
+  padding: 2%; }
 
 .pie {
   max-width: 100%; }
@@ -123,36 +184,29 @@ img {
 .Columnaredes {
   display: flex;
   max-width: 30%;
-  margin-top: 2%; }
+  margin-top: 2%;
+  margin-left: 30%;
+  padding: 2%; }
 
 .face {
-  background-color: blue;
-  color: white;
-  margin-right: 2px;
-  margin-top: 2%; }
+  margin-inline-start: 28%;
+  margin-top: 1%; }
 
 .insta {
-  background-color: blueviolet;
-  color: white;
   margin-top: 2%; }
 
 .google {
-  background-color: #db8829;
-  color: white; }
+  margin-top: 2%; }
 
 .wapp {
-  background-color: green;
-  color: white;
   margin-top: 2%; }
 
 .youtube {
-  background-color: red;
-  color: white;
   margin-top: 2%; }
 
 .copy {
   max-width: 30%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 2%;
   color: black; }
 

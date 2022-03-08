@@ -1,5 +1,15 @@
+
 @import "_responsive";
 
+//mixin//
+@mixin textos ($position,$valor,$colors){
+  display: flex;
+  justify-content: $position;
+  font-style:normal;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: $colors;
+  font: size $valor;
+}
 
 //colores//
 $colorUno: rgb(45, 113, 177);
@@ -15,15 +25,9 @@ $fondoDos: #0c385f;
 
 //COLOR DE BORDES//
 $borderColor: rgb(255, 255, 255);
-//mixin//
-@mixin textos($position,$valor,$colors){
-  display: flex;
-  justify-content: $position;
-  font-style:normal;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color: $colors;
-  font: size $valor;
-}
+
+
+
 //map para redes sociales//
 $color-redes:("facebook":blue, "instagram":blueviolet, "youtube":red, "whatsapp":green, "google": rgb(219, 136, 41));
 
@@ -40,14 +44,16 @@ h1 {
 /*index-contenido*/    
 .presentacion {
     display:flex;
-    justify-content: center;     
+    justify-content: center;
+         
 
     .video{
            display: flex;
-           padding-left: 20px;      
+           padding-left: 20px; 
+           margin-left: 5%;     
     }   
      .parrafo{
-       @include textos(flex-end,200%,$colorUno);
+       @include textos(flex-end,400%,$colorUno);
        margin-top:10%;
      }
 }
@@ -88,9 +94,10 @@ img{
 /*redes footer*/
 .pie{
   display: flex;
-  background-color: $fondoUno ;
+  background-color: $fondoUno;
   width: 100%;
   color: $colorCuatro;
+  padding: 2%;
 }
 .pie{
   max-width: 100%;
@@ -116,37 +123,33 @@ img{
   display: flex;
   max-width:30%;
   margin-top: 2%;
+  margin-left: 30%;
+  padding: 2%;
 }
  
 .face{
-  background-color: map-get($color-redes,facebook);
-  color:$colorCuatro;
-  margin-right: 2px;
-  margin-top: 2%;
+  margin-inline-start: 28%;
+  margin-top: 1%;
 }
 .insta{
-  background-color: map-get($color-redes,instagram);
-  color:$colorCuatro;
+  
   margin-top: 2%;
+
 }
 .google{
-  background-color: map-get($color-redes,google);
-  color:$colorCuatro;
+ margin-top: 2%;
 }
 .wapp{
-  background-color: map-get($color-redes,whatsapp);
-  color:$colorCuatro;
   margin-top: 2%;
 }
 .youtube{
-  background-color: map-get($color-redes,youtube);
-  color:$colorCuatro;
+
   margin-top: 2%;
 }
 
 .copy{
   max-width: 30%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 2%;
   color:$colorTres
 }
